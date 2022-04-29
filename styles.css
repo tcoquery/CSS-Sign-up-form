@@ -16,6 +16,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.left-text {
+    font-family: baking;
+    font-size: 5rem;
+    line-height: 140px;
+    text-align: center;
+}
+
 .frame {
     position: relative;
     top: 250px;
@@ -38,12 +45,6 @@ body {
     width: 100%;
 }
 
-.sign-up-body {
-    height: 50%;
-    position: relative;
-    top: 25%;
-}
-
 .header-text {
     font-size: 2rem;
     margin-left: 25px;
@@ -51,11 +52,24 @@ body {
     bottom: 0;
 }
 
-.left-text {
-    font-family: baking;
-    font-size: 5rem;
-    line-height: 140px;
-    text-align: center;
+.sign-up-body {
+    height: 50%;
+    position: relative;
+    top: 25%;
+}
+
+input {
+   margin-bottom: 20px;
+   padding: 8px;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 40px;
 }
 
 .sign-up-footer {
@@ -76,3 +90,4 @@ body {
     margin-left: 40px;
     margin-top: 30px;
 }
+
