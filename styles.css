@@ -108,3 +108,13 @@ input:invalid {
     margin-left: 40px;
 }
 
+#link {
+    text-decoration: none;
+}
+
+#credits {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 40px;
+}
+
