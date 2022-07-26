@@ -10,7 +10,7 @@
 <body>
     <div class="background">
         <div class="frame">
-            <div><p class="left-text">My Baking Project</p></div>
+            <p class="left-text">My Baking Project</p>
         </div>
     </div>
     <div class="right-side">
@@ -19,27 +19,30 @@
         </div>
         <div class="sign-up-body">
             <div class="row" id="first-row">
-                <label for="firstName" id="firstName_label">FIRST NAME:</label>
+                <label for="firstName" id="firstName_label">FIRST NAME <span>(*)</span>: </label>
                 <input type="text" id="firstName" name="first_name" required>
-                <label for="lastName">LAST NAME:</label>
+                <label for="lastName">LAST NAME  <span>(*)</span>:</label>
                 <input type="text" id="lastName" name="last_name" required>
             </div>
             <div class="row" id="second-row">
-                <label for="user_email">EMAIL ADDRESS:</label>
+                <label for="user_email">EMAIL ADDRESS  <span>(*)</span>:</label>
                 <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
-                <label for="phoneNumber">PHONE NUMBER:</label>
+                <label for="phoneNumber">PHONE NUMBER  <span>(*)</span>:</label>
                 <input type="text" id="phoneNumber" name="phone_number" pattern="(\d{10})?" required>
             </div>
             <div class="row" id="second-row">
-                <label for="user_password">PASSWORD:</label>
-                <input type="password" id="user_password" name="password" minlength="8" required>
-                <label for="user_password">CONFIRM PASSWORD:</label>
-                <input type="password" id="user_password" name="password" minlength="8" required>
+                <label for="user_password">PASSWORD  <span>(*)</span>:</label>
+                <input class="error" type="password" id="user_password" name="password" minlength="8" required>
+                <label for="user_password_confirmation">CONFIRM PASSWORD  <span>(*)</span>:</label>
+                <input class="error" type="password" id="user_password_confirmation" name="password" minlength="8" required>
             </div>  
+            <span class="row">Required (*)</span>
         </div>
         <div class="sign-up-footer">
-            <button class="sign-up-button" type="submit">CREATE ACCOUNT</button>
-            <p id="login">Already have an account ? <a href="log-in.html">Log in</a></p>
+            <div>
+                <button class="sign-up-button" type="submit">CREATE ACCOUNT</button>
+                <p id="login">Already have an account ? <a href="">Log in</a></p>
+            </div>
             <p id="credits">Photography by <a  id="link" href="https://unsplash.com/@moniqa">Monica Grabkowska</a></p>
         </div>
     </div>
