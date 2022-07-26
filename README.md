@@ -4,8 +4,8 @@ This project's main goal was to learn about form validation in CSS hence why the
 
 Desktop version :
 
-[!Sign up form screenshot](https://i.imgur.com/gF7cWbk.png)
+![Sign up form screenshot](https://i.imgur.com/gF7cWbk.png)
 
 Small screens version :
 
-[!Sign up form mobile version screenshot](https://i.imgur.com/oicqYKC.png)
+![Sign up form mobile version screenshot](https://i.imgur.com/oicqYKC.png)
